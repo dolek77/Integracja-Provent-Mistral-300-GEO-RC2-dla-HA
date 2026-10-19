@@ -1,10 +1,10 @@
 {
-  "domain": "provent_mistral",
+  "domain": "provent_mistral_passive",
   "name": "Pro-Vent Mistral (RC2)",
   "codeowners": [],
   "config_flow": true,
-  "documentation": "https://github.com/TWOJ_LOGIN/ha-provent-mistral",
-  "issue_tracker": "https://github.com/TWOJ_LOGIN/ha-provent-mistral/issues",
+  "documentation": "https://github.com/dolek77/ha-provent-mistral_passive",
+  "issue_tracker": "https://github.com/dolek77/ha-provent-mistral_passive/issues",
   "integration_type": "device",
   "iot_class": "local_push",
   "requirements": [],
