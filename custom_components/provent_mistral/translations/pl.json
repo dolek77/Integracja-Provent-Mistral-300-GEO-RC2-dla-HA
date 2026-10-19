@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pro-Vent Mistral (RC2)",
+        "description": "Podaj dane konwertera RS485-LAN (serwer TCP). Integracja tylko podsłuchuje magistralę i nic do niej nie wysyła.",
+        "data": {
+          "host": "Adres IP konwertera",
+          "port": "Port TCP"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie można połączyć się z konwerterem RS485-LAN."
+    },
+    "abort": {
+      "already_configured": "Ta konfiguracja już istnieje."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "time": {
+        "name": "Czas"
+      },
+      "weekday": {
+        "name": "Dzień tygodnia",
+        "state": {
+          "monday": "Poniedziałek",
+          "tuesday": "Wtorek",
+          "wednesday": "Środa",
+          "thursday": "Czwartek",
+          "friday": "Piątek",
+          "saturday": "Sobota",
+          "sunday": "Niedziela"
+        }
+      },
+      "gear": {
+        "name": "Bieg"
+      },
+      "bypass": {
+        "name": "Bypass",
+        "state": {
+          "on": "Włączony",
+          "off": "Wyłączony"
+        }
+      },
+      "gwc": {
+        "name": "GWC",
+        "state": {
+          "on": "Włączone",
+          "off": "Wyłączone"
+        }
+      },
+      "panel": {
+        "name": "Aktywny panel",
+        "state": {
+          "clock": "Zegar",
+          "bypass": "BYPASS",
+          "gwc": "GWC",
+          "t2": "T2",
+          "ventilation": "Wietrzenie"
+        }
+      },
+      "temperature": {
+        "name": "Temperatura"
+      }
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Pro-Vent Mistral (RC2)",
+        "description": "Enter the RS485-LAN converter (TCP server) details. The integration only listens to the bus and never transmits.",
+        "data": {
+          "host": "Converter IP address",
+          "port": "TCP port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to the RS485-LAN converter."
+    },
+    "abort": {
+      "already_configured": "This configuration already exists."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "time": {
+        "name": "Time"
+      },
+      "weekday": {
+        "name": "Day of week",
+        "state": {
+          "monday": "Monday",
+          "tuesday": "Tuesday",
+          "wednesday": "Wednesday",
+          "thursday": "Thursday",
+          "friday": "Friday",
+          "saturday": "Saturday",
+          "sunday": "Sunday"
+        }
+      },
+      "gear": {
+        "name": "Gear"
+      },
+      "bypass": {
+        "name": "Bypass",
+        "state": {
+          "on": "On",
+          "off": "Off"
+        }
+      },
+      "gwc": {
+        "name": "GWC",
+        "state": {
+          "on": "On",
+          "off": "Off"
+        }
+      },
+      "panel": {
+        "name": "Active panel",
+        "state": {
+          "clock": "Clock",
+          "bypass": "Bypass",
+          "gwc": "GWC",
+          "t2": "T2",
+          "ventilation": "Ventilation"
+        }
+      },
+      "temperature": {
+        "name": "Temperature"
+      }
+    }
+  }
+}
